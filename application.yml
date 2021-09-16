@@ -1,6 +1,3 @@
-spring:
- profile:
-  active: native
 eureka:
   client:
     service-url:
