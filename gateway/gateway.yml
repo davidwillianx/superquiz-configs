@@ -7,7 +7,7 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: qoauth
-          uri: lb://QOAUTH
+        - id: qauth
+          uri: lb://QAUTH
           predicates:
-            - Path=/qoauth/**
+            - Path=/qauth/**
