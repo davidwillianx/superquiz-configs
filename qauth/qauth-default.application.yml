@@ -1,9 +1,3 @@
-server:
-  port: 9393
-
-spring:
-  application:
-    name: QAUTH
 
 keycloak:
   auth-server-url: http://localhost:8180/auth
