@@ -3,11 +3,11 @@ server:
 
 spring:
   application:
-    name: gateway
+    name: GATEWAY
   cloud:
     gateway:
       routes:
-        - id: qauth
+        - id: QAUTH
           uri: lb://QAUTH
           predicates:
             - Path=/qauth/**
