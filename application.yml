@@ -2,3 +2,5 @@ eureka:
   client:
     service-url:
      defaultZone: ${DISCOVRY_PATH:http://localhost:9191/eureka}
+  instance:
+   hostname: localhost
