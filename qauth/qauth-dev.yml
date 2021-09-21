@@ -2,5 +2,6 @@
 keycloak:
   auth-server-url: http://localhost:8080/auth
   realm: superquiz
-  resource: login-app
+  resource: access
   principal-attribute: prefered_username
+  public-client: true
